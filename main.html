@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form >
+	<form  method="post">
 		<div>
 			<label for="name">Name*</label>
 		<input type="text" id="name" required>
@@ -17,7 +17,7 @@
 		<input type="Email" id="email" required>	
 		</div>
 		<div>
-			Gender*
+			<label>Gender*</label>
 			<label for="male">male</label>
 		<input type="radio" id="male" name="gender" required>
 			<label for="female">female</label>
@@ -25,10 +25,11 @@
 			<label for="other">other</label>
 		<input type="radio" id="other" name="gender" required>
 		</div>
-		<select required>
-			<option>Apple</option>
-			<option>Asus</option>
-			<option>HP</option>
+		<label for="laptop">Laptop Brands</label>
+		<select id="laptop" required>
+			<option value="Apple">Apple</option>
+			<option value="Asus">Asus</option>
+			<option value="HP">HP</option>
 			
 		</select>
 			
